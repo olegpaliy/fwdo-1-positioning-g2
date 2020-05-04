@@ -1,0 +1,33 @@
+.square-circle-section{
+  position: relative;
+  border: 1px solid;
+  background-color: blueviolet;
+  width: 310px;
+  height: 310px;
+  margin: 0 auto;
+}
+
+.square {
+  border: 1px solid;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 5px;
+  left: 5px;
+  background-color: aqua;
+  z-index: 2;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  top: 5px; 
+  left: 5px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: beige;
+  z-index: 1;
+}
+
+
+/* file>preference>settings> Editor:tab size тут має стояти 2 */
