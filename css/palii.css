@@ -1,0 +1,95 @@
+* {
+  display: inline-block;
+}
+.square-circle-section {
+  position: relative;
+  border: 1px solid black;
+  height: 310px;
+  width: 310px;
+  margin: 0 auto;
+}
+.square {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+  top: 4px;
+  left: 4px;
+  background-color: aqua;
+  position: absolute;
+  z-index: 2;
+}
+.circle {
+  border: 1px solid blue;
+  height: 300px;
+  width: 300px;
+  top: 4px;
+  left: 4px;
+  position: absolute;
+  background-color: brown;
+  border-radius: 50%;
+  z-index: 1;
+}
+.circle-triangle-section {
+  position: relative;
+  border: 1px solid black;
+  height: 310px;
+  width: 310px;
+  margin: 0 auto;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 155px 306px 153px;
+  border-color: transparent transparent #007bff transparent;
+  position: absolute;
+  z-index: 3;
+}
+#circle-triangle .circle {
+  z-index: 4;
+}
+.circle-triangle-section-reverse {
+  border: 1px solid black;
+  height: 310px;
+  width: 310px;
+  margin: 0 auto;
+  position: relative;
+}
+.triangle-reverse {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 306px 154px 0 153px;
+  border-color: blueviolet transparent transparent transparent;
+  position: absolute;
+}
+#circle-triangle .circle {
+  background-color: bisque;
+}
+.circle-square-triangle-section {
+  position: relative;
+  border: 1px solid black;
+  height: 310px;
+  width: 310px;
+  margin: 0 auto;
+}
+#circle-square-triangle .circle {
+z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
